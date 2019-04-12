@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: #333;
+}
+.wrapper{
+	margin:auto;
+	width: 1000px;
+	height: 1000px;
+}
+.header{
+	width: 100%;
+}
+img{
+	width: 100%;
+	height: 250px;
+}
+.menu{
+	background: #F90;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 4px;
+}
+.menu ul{
+	width: 100%;
+	height: 40px;
+	list-style-type: none;
+}
+.menu ul li{
+	float: left;
+	line-height: 40px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 11.5px 10px;
+}
+.menu ul li a:hover{
+	background-color: #FF0000;
+}
+.menu a:hover{
+	color: white;
+}
+.dangnhap{
+	width: auto;
+    float: right;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.content{
+	width: 100%;
+	height: auto;
+}
+.content-left{
+	width:20%;
+	height: auto;
+	float: left;
+}
+.loaisanpham ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	line-height: 30px;
+}
+.loaisanpham ul li{
+	display: block;
+	/*height: 30px;*/
+}
+.loaisanpham a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 5px 0px 5px 10px;
+}
+.loaisanpham ul li 	a:hover{
+	background: pink;
+	color: blue;
+}
+.mucgia p{
+	padding: 5px 0px;
+}
+.mucgia a:hover{
+	color: blue;
+}
+.content-right{
+	width:79%;
+	height: auto;
+	float: right;
+}
+.tatcasanpham ul{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.tatcasanpham ul li{
+	padding: 10px 10px;
+	list-style-type: none;
+	width: 24%;
+	text-align: center;
+	float: left;
+}
+.tatcasanpham a{
+	text-decoration: none;
+	color: #333;
+}
+.tatcasanpham ul li{
+	margin: 1px 1px;
+}
+.tatcasanpham ul li:hover{
+	
+}
+.tatcasanpham ul li:hover .tensp{
+	color: 	#03a9f4;
+}
+.tatcasanpham .tensp {
+	font-weight: bold;
+}
+.chitietsp table{
+	width: 90%;
+	height: 400px;
+	margin: auto;
+	background-color: #f8f8f8;
+	border-collapse: collapse;
+}
+.chitietsp table td{
+	border: 1px solid #d8d8d8;
+}
+.content-right .trang {
+	margin-top: 5px;
+    width: auto;
+    display: block;
+    height: 35px;
+    float: right;
+}
+.content-right .box-trang {
+	border:1px solid gray;
+	color: black;
+	float: left;
+	padding: 5px 5px;
+	margin-right: 5px;
+}
+.content-right .trang .box-trangdoimau {
+	border:1px solid gray;
+	color: black;
+	float: left;
+	padding: 5px 5px;
+	margin-right: 5px;
+	background-color: #ff0000;
+	color: #fff;
+}
+.content-right .trang .box-trang:hover {
+	background: white;
+	color: white;
+}
+.content-right table{
+	width: 95%;
+	margin: auto;
+	margin-top: 5px;
+}
+.content-right table tr td{
+	padding: 10px 10px;
+}
+.content-right .inp{
+	width: 215px;
+    height: 30px;
+}
+.content-right .butt{
+	border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #ffffff;
+    margin-left: 150px;
+}
+.dathang .title{
+	font-weight: bold;
+}
+.dathang span{
+	padding-right: 29px;
+    float: right;
+    color: #c10017;
+    font-weight: bold;
+    font-size: 18px;
+}
+.dathangthanhcong a:hover{
+	color: #ff0000;
+	text-decoration: underline;
+}
+.giohang{
+	border-bottom: 2px solid #dedede;
+    width: 69%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.giohang .left{
+	float: left;
+
+}
+.left span {
+	padding: 5px 0px 0px 25px;
+}
+.giohang .right{
+	float: left;
+    width: 82%;
+    margin-left: 19px;
+}
+.giohang .right .right-left{
+	float: left;
+}
+.right-left>p{
+	font-weight: bold;
+}
+.giohang .right .right-right{
+	float: right;
+}
+.right-right p{
+	color: #c10017;
+	padding-left: 15px;
+}
+.chonsoluong{
+	margin-top: 10px;
+}
+.chonsoluong .soluong{
+	/*border: 1px solid #dede;*/
+	display: inline;
+}
+.soluong{
+	border: 1px solid #dedede;
+    /* width: 10px; */
+    /* height: 10px; */
+    padding: 5px 5px 5px 10px;
+}
+.content-right .tongtien{
+	padding-top: 10px;
+    width: 69%;
+    margin: auto;
+}
+.tongtien span{
+	float: right;
+	font-weight: bold;
+	color: #c10017;
+}
+.thanhtoan a{
+	font-size: 20px;
+    font-weight: bold;
+}
+.thanhtoan a:hover{
+	color: #ff0000;
+}
+.huongdan p{
+	padding: 0 0 10px;
+}
+.lienhe1 .glyphicon{
+	color: #ff0000;
+}
+.thongtinkhachhang a:hover{
+	color: blue;
+}
+.doimatkhau .inp{
+	width: 215px;
+    height: 30px;
+}
+.clear{
+	clear: both;
+}
+.footer{
+	background-color: #f8f8f8;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+}
